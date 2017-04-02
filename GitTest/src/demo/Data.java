@@ -5,7 +5,7 @@ public  class Data {
 
 	public static void display() {
 		// TODO Auto-generated method stub
-		for (int i = 0; i < Data.length; i++) {
+		for (int i : Data) {
 			System.out.println("Data" +i +" : " +Data[i] );
 			
 		}
